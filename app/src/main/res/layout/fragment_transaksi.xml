@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTransaksi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <!-- Empty state jika tidak ada transaksi -->
+    <TextView
+        android:id="@+id/txtemptyTransaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_belum_ada_transaksi"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTransaksi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/txtTotalBiaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_total_biaya_akhir"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:padding="16dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnTambahTransaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_tambah_transaksi"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

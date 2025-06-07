@@ -1,0 +1,37 @@
+<resources>
+    <!-- fragment_barang_form.xml-->
+    <string name="app_name">SuweOraJamuApps</string>
+    <string name="hint_nama_barang">Nama Barang</string>
+    <string name="hint_harga_barang">Harga Barang</string>
+    <string name="btn_pilih_gambar">Pilih Gambar dari Galeri</string>
+    <string name="btn_simpan_gambar">Simpan</string>
+    <string name="btn_hapus_gambar">Hapus</string>
+
+    <!-- fragment_barang.xml -->
+    <string name="txt_belum_ada_barang">Belum Ada Barang</string>
+
+    <string name="btn_tambah_barang">Tambah Barang</string>
+
+    <!-- item_barang.xml -->
+    <string name="txt_nama_barang">Nama Barang</string>
+    <string name="txt_harga_barang_item">Harga Rp0</string>
+
+    <!-- fragmment_transaksi_form.xml -->
+    <string name="hint_jumlah">Jumlah</string>
+    <string name="hint_pilih_tanggal">Pilih Tanggal dan Jam</string>
+
+    <string name="btn_simpan_transaksi">Simpan</string>
+    <string name="btn_hapus_transaksi">Hapus</string>
+
+    <!-- fragmment_transaksi.xml -->
+    <string name="txt_belum_ada_transaksi">Belum ada transaksi</string>
+    <string name="txt_total_biaya_akhir">Total Biaya Akhir: Rp0</string>
+
+    <string name="btn_tambah_transaksi">Tambah Transaksi</string>
+
+    <!-- item_transaksi.xml -->
+    <string name="txt_harga_barang">Harga: Rp0</string>
+    <string name="txt_jumlah">Jumlah: 0</string>
+    <string name="txt_tanggal">Tanggal : -</string>
+    <string name="txt_total_bayar">Total: Rp0</string>
+</resources>
